@@ -35,7 +35,7 @@ def detection(filename, output, output_video=False, output_name = "output.mov"):
     while True:
         _, frame = cap.read()
         counter += step
-        if counter < step:
+        if counter < step:jj
             continue
         if i == lim or frame is None:
             break
